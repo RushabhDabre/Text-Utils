@@ -53,7 +53,7 @@ export default function Navbar(props) {
                             <button type="button" className="btn btn-dark my-2" onClick={props.toggleModeDark}>Dark</button>
                             <button type="button" className="btn btn-danger my-2" onClick={props.toggleModeDanger}>Danger</button>
                             <button type="button" className="btn btn-success my-2" onClick={props.toggleModeSuccess}>Success</button>
-                            <button type="button" className="btn btn-info my-2" onClick={props.toggleModeSky}>Sky</button>
+                            <button type="button" className="btn btn-primary my-2" onClick={props.toggleModeSky}>Sky</button>
                             {/* <button type="button" className="btn btn-light" onClick={props.toggleMode}>Light</button>
                             <button type="button" className="btn btn-dark" onClick={props.toggleMode}>Dark</button>
                             <button type="button" className="btn btn-danger" onClick={props.toggleMode}>Danger</button>

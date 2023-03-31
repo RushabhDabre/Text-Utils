@@ -19,7 +19,7 @@ import Alert from './components/Alert';
 
 
 function App() {
-  const [mode, setMode] = useState('light'); //wether dark mode is enabled or not
+  const [mode, setMode] = useState('info'); //wether dark mode is enabled or not
   const [alert, setAlert] = useState(null); //wether dark mode is enabled or not
 
   const showAlert = (message, type) => {
