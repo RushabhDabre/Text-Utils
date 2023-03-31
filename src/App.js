@@ -17,7 +17,6 @@ import Alert from './components/Alert';
 
 // import Navbar from './components/ReactNavbar'
 
-// import React from 'react'
 
 function App() {
   const [mode, setMode] = useState('light'); //wether dark mode is enabled or not
@@ -83,6 +82,8 @@ function App() {
       {/* <Router> */}
       <Navbar title='TextUtils' mode={mode} toggleModeDark={toggleModeDark} toggleModeLight={toggleModeLight} toggleModeDanger={toggleModeDanger} toggleModeSuccess={toggleModeSuccess} toggleModeSky={toggleModeSky} abouttext="About" />
       <Alert alert={alert} />
+
+
       {/* <Alert alert="This is Rushabh Coding!" /> */}
       {/* <div className='Container my-3 mx-5' >
         <Routes>
@@ -91,7 +92,7 @@ function App() {
         </Routes>
       </div > */}
       <div className='Container my-3 mx-5' >
-        <TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode} />
+        <TextForm showAlert={showAlert} heading="TextUtils - Word Counter, Character Counter, Remove Extra Spaces" mode={mode} />
       </div >
       {/* </Router> */}
     </>
